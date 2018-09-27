@@ -1,0 +1,47 @@
+{
+  "name": "@softbrains/ftl-oms-trackings",
+  "version": "0.0.1",
+  "description": "FTL OMS Tracking Batch Processing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "test": "mocha test/ --recursive --exit",
+    "coverage": "nyc mocha --recursive",
+    "report": "nyc --reporter=lcov npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/configuration": "^2.0.1",
+    "@feathersjs/feathers": "^3.1.7",
+    "@slack/client": "^4.6.0",
+    "@softbrains/sequelize": "^4.38.1",
+    "@softbrains/ssh2-sftp-client": "^3.1.1",
+    "feathers-sequelize": "^3.1.2",
+    "hummus": "^1.0.90",
+    "i18n": "^0.8.3",
+    "memory-streams": "^0.1.3",
+    "moment-timezone": "^0.5.17",
+    "node-schedule": "^1.3.0",
+    "papaparse": "^4.6.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "require-glob": "^3.2.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "nyc": "^13.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sqlite3": "^4.0.2"
+  },
+  "bin": {
+    "jobs": "bin/jobs.js"
+  }
+}

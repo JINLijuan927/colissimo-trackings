@@ -1,0 +1,23 @@
+{
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "db": "postgres://zdhsanbkszqavp:c1f971b47445fa2b3f100425fb4905335e43041be468ac3958a23a0364fb163b@ec2-184-73-199-72.compute-1.amazonaws.com:5432/dfc98cbk6a5i06",
+  "job": {
+    "COLISSIMO": {
+      "sftp": {
+        "host": "sftp.ftl-oms.com",
+        "port": "22",
+        "username": "colissimo-test",
+        "password": "qasdfrew",
+        "path": "/local/ftl/out"
+      },
+      "slack": {
+        "token": "xoxp-64405644659-64461010423-442374593796-51d68ed913191441b99f445512fd96f0",
+        "channel": "colissimo-dev",
+        "username": "Colissimo Bot"
+      }
+    }
+  }
+}

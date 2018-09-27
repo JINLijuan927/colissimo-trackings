@@ -1,0 +1,14 @@
+{
+  "db": "postgres://zdhsanbkszqavp:c1f971b47445fa2b3f100425fb4905335e43041be468ac3958a23a0364fb163b@ec2-184-73-199-72.compute-1.amazonaws.com:5432/dfc98cbk6a5i06",
+  "job": {
+    "COLISSIMO": {
+      "sftp": {
+        "host": "sftp.ftl-oms.com",
+        "port": "22",
+        "username": "colissimo",
+        "password": "qasdfrew",
+        "path": "/local"
+      }
+    }
+  }
+}
