@@ -2,6 +2,9 @@
 
 ## Jobs
 
+###
+npm install
+
 ### Start a simple job
 NODE_ENV=test bin/jobs.js SimpleJob  
 
